@@ -1,0 +1,92 @@
+body {
+    background-image: linear-gradient(to right, #786a9b, rgb(49, 34, 102));
+    font-family: 'Cairo', sans-serif !important;
+
+}
+
+.container {
+    margin-top: 100px;
+    width: 60%;
+    color: blanchedalmond;
+    background-color: rgb(20 45 58);
+    padding: 10px;
+    border-radius: 30px;
+    transition: 0.3s;
+
+}
+
+.container:hover {
+    box-shadow: 5px 10px #b3e7ff;
+}
+
+.title {
+    text-align: center;
+}
+
+hr {
+    height: 4px;
+    color: #5f626b;
+}
+
+.task_text {
+    color: rgb(50, 135, 168);
+    font-size: 200%;
+}
+
+.task {
+    text-shadow: 2px 2px 4px #627e00 !important;
+    transition: 0.5s;
+    padding: 5px;
+    margin-bottom: 10px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+}
+
+.task:hover {
+    background: #423146;
+    border-radius: 70px;
+
+}
+
+.done {
+
+    padding: 5px;
+    margin-bottom: 10px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    background-color: rgb(9, 100, 70);
+    text-shadow: 2px 2px 4px #3700ff !important;
+    transition: 0.5s;
+}
+
+.done:hover {
+    background: #3c6942;
+    border-radius: 70px;
+}
+
+
+
+.btn {
+    --bs-btn-border-color: #7a5757 !important;
+    align-items: center;
+    text-align: center;
+    margin-top: 30%;
+}
+
+.btn:hover {
+    box-shadow: 5px 5px #000000;
+}
+
+#ending {
+    width: 400px;
+
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: antiquewhite;
+    border-radius: 10px;
+}
+
+#ending:hover {
+    background-color: #000000;
+}
